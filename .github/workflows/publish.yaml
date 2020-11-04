@@ -25,4 +25,4 @@ jobs:
       run: npm install -g surge
 
     - name: Deploy to Surge
-      run:  surge ./build https://expense_Tracker_by_salman.surge.sh/ --token ${{secrets.TOKEN}}
+      run:  surge ./build https://expense_Tracker_by_salman.surge.sh/ --token ${{SURGE_TOKEN}}
